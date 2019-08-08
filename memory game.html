@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Match the cards</title>
+    <meta name="description" content="game">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Match the cards</h1>
+        </header>
+
+        <section class="score-panel">
+            <ul class="stars">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+
+            <span class="moves"></span> Moves
+            <span class="timer"></span> Seconds
+            <div class="restart">
+                <i class="fa fa-repeat"></i>
+            </div>
+        </section>
+
+        <ul class="deck">
+        </ul>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Congratulations <br/><br/>You earned <span id="rating"> </span> stars<br/><br/> It took you <span id="seconds"> </span> seconds and <span id="moves"> </span> moves <br/><br/>
+            </p>
+        </div>
+
+    </div>
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
